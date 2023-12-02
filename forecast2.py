@@ -28,8 +28,8 @@ co2data1 = co2data[70:]
 pickle_in = open('model_arima_712.pkl', 'rb') 
 model_arima = pickle.load(pickle_in)
 
-pickle_in = open('HW_model.pkl', 'rb') 
-model_HW = pickle.load(pickle_in)
+#pickle_in = open('HW_model.pkl', 'rb') 
+#model_HW = pickle.load(pickle_in)
 
 train = co2data1[:101]
 test = co2data1[101:]
